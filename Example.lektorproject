@@ -19,5 +19,5 @@ locale = de
 [packages]
 lektor-markdown-highlighter = 0.1
 
-[server.ghpages]
+[servers.ghpages]
 target = ghpages+https://rne1223/lektorTest             
