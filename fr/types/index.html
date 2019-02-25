@@ -1,0 +1,329 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../static/style.css?h=7badd93f">
+<link rel="stylesheet" href="../../static/pygments.css">
+<link rel="icon" href="../../static/favicon.png?h=fa09bedd">
+<title>Types — Example</title>
+<body>
+  <header>
+    <a href="../../" style="text-decoration: none;">
+      <img class="logo" src="../../logo@250.png">
+      <h1 class="logo">Example</h1>
+    </a>
+    <nav>
+      <ul class="nav navbar-nav">
+        Basic Nav:
+        <li><a href="../../fr/">Welcome</a></li>
+        
+          <li><a href="../../fr/blog/">Blog</a></li>
+        
+          <li><a href="../../fr/projects/">Projects</a></li>
+        
+          <li><a href="../../fr/about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="page">
+    
+
+    
+  
+  <h2>Types</h2>
+  <p>This page is an example of every built-in field type Lektor has.</p>
+
+ 
+
+  <p>The title of this page is a <b>string</b> field. ^^</p>
+
+  
+  <p>
+    <b>booleans:</b>
+    <br>
+    
+      Boolean1 caused True text!
+    
+    Boolean1 = True
+
+    
+    <br>
+    
+      Boolean2 caused False text!
+    
+    Boolean2 = False
+  </p>
+
+  
+  <p>
+    Of the <b>checkboxes</b> 1-4, boxes
+    
+       choice1, 
+    
+      and  choice3
+    
+    are checked.
+  </p>
+
+  
+  <p>
+    A <b>date</b>: 2018-07-04
+    <br>
+    A <b>datetime</b> formatted three ways:
+    <ul>
+      <li>2018-07-04 05:02:22-05:00</li>
+      <li>2018-07-04 05:02</li>
+      <li>07/04/2018 05:02</li>
+    </ul>
+  </p>
+
+  
+  <p>
+    A <b>float</b>: 2.71828 and 3.14
+    <br>
+    A <b>int</b>: 1729 and 137
+  </p>
+
+  
+  <p>
+    These <b>flow blocks</b> are called manually from the main template for this page:
+    <br>
+    
+      <p>Text from text only flow block.</p>
+
+    
+      <p>Text from text_and_html flow block.</p>
+
+    
+    and all 'html' blocks with the additional templates in templates/blocks/:
+    <br>
+    
+
+<span style="color: blue;"><i>html from text_and_html flow block.</i></span> - color applied in block's template file.
+  </p>
+
+  <p>
+    Raw <b>HTML</b>:
+    <br>
+    <ul>
+  <li><i>ħ</i></li>
+  <li><i>G</i></li>
+  <li><i>c</i></li>
+  <li><i>k<sub>e</sub></i></li>
+  <li><i>k<sub>B</sub></i></li>
+</ul>
+  </p>
+
+  <p>
+    <b>markdown</b>:
+    <ul>
+<li>kg</li>
+<li>m</li>
+<li>s</li>
+<li>A</li>
+<li>K</li>
+<li>mol</li>
+<li>cd</li>
+</ul>
+
+  </p>
+
+  <p>
+    <b>strings</b>:
+    [&#39;string1&#39;, &#39;string2&#39;, &#39;string3&#39;]
+    <br>
+    
+       string1, 
+    
+       string2, 
+    
+      and  string3
+    
+  </p>
+
+  <p>
+    Unformatted <b>text</b>:
+    Here is some
+sample text.
+  </p>
+
+  <p>
+    <b>sort_key</b>: 2
+  </p>
+
+  </div>
+  <footer>
+    Recursive tree navigation of this example site:
+    <button onclick="myFunction()">Toggle hide/show</button>
+    <ul id="footer-nav" class="tree-nav" style="display: none;">
+      
+      <li>
+        <a href="../../">Welcome to the Example Site!</a>
+      </li>
+      
+        <li>
+          <a href="../../404.html">/404.html</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../plugin-use/">/plugin-use</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../projects/categories/">/project-categories</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/categories/category-1/">/project-categories/category-1</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/project-a/">/projects/project-a</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../projects/categories/category-2/">/project-categories/category-2</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/project-b/">/projects/project-b</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../projects/project-a/">/projects/project-a</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../projects/categories/category-3/">/project-categories/category-3</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/project-b/">/projects/project-b</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../projects/categories/category-4/">/project-categories/category-4</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/project-b/">/projects/project-b</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../projects/categories/category-5/">/project-categories/category-5</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../blog/">/blog</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../blog/blog-6/">/blog/blog-6</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/blog-post-5/">/blog/blog-post-5</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/blog-post-4/">/blog/blog-post-4</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/blog-post-3/">/blog/blog-post-3</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/blog-post-2/">/blog/blog-post-2</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/first-post/">/blog/first-post</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../blog/hey/">/blog/hey</a>
+        </li>
+        
+      </ul>
+        
+      
+        <li>
+          <a href="../../types/">/types</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../about/">/about</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../projects/">/projects</a>
+        </li>
+        
+          <ul>
+        <li>
+          <a href="../../projects/project-b/">/projects/project-b</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../projects/project-c/">/projects/project-c</a>
+        </li>
+        
+      
+        <li>
+          <a href="../../projects/project-a/">/projects/project-a</a>
+        </li>
+        
+      </ul>
+        
+      
+    </ul>
+
+    <div>
+      &copy; Copyright 2015 by Armin Ronacher.
+    </div>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("footer-nav");
+      if (x.style.display === "none") {
+          x.style.display = "block";
+      } else {
+          x.style.display = "none";
+      }
+    }
+  </script>
+</body>
